@@ -1,0 +1,84 @@
+.navbar {
+  background: linear-gradient(to top,transparent 0%,rgb(0,0,0,0.3)50%);
+  color: ghostwhite;
+  font-size: 14px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+
+  &.scrolled{
+    background: linear-gradient(to top,transparent 0%,rgb(0,0,0,0.6)0%);
+  }
+  .container {
+    height: 70px;
+    padding: 0 50px 0 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+    .left {
+      img {
+        display: inline-block;
+        height: 28px;
+        vertical-align: middle;
+        margin-right: 30px;
+      }
+
+      span {
+        font-weight: bold;
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: 20px;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      align-items: center;
+      margin-right: 30px;
+      img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        object-fit: contain;
+      }
+      span {
+        font-weight: bold;
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: 20px;
+        cursor: pointer;
+      }
+      .icon {
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+        margin: 0 20px;
+      }
+
+      .profile {
+        display: inline-flex;
+        flex-direction: column;
+        position: absolute;
+        cursor: pointer;
+        .options {
+          display: none;
+        }
+
+        &:hover {
+          .options {
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+  }
+
+}

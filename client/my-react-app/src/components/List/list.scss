@@ -1,0 +1,42 @@
+.list{
+  width: 100%;
+  margin-top: 10px;
+
+  .listTitle{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+
+  .Wrapper{
+    position: relative;
+    .slider{
+      width: 50px;
+      height: 100%;
+      background-color: rgb(40,15,15,0.5);
+      color: var(--main-color);
+      position: absolute;
+      z-index: 999;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      cursor: pointer;
+
+      &.left{
+        left: 0;
+      }
+      &.right{
+        right: 0;
+      }
+
+    }
+    .container{
+      margin-left: 50px;
+      display: flex;
+      width: max-content;
+      transform: translateX(0);
+      transition: all 1s ease;
+    }
+  }
+}
