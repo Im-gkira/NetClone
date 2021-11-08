@@ -1,21 +1,24 @@
 # NetClone (Work in Progress)
 
 ## Description
-**Tech stack = MERN STACK, SASS**
-**Developed a clone of a famous streaming service with a little different User Interface Using MERN Stack ,
-SCSS.**
-**Used JSON Web Token (JWT) for authorization. To authenticate a user, client must send a JSON Web Token
-in response of http request for backend API.**
+**Tech stack = MERN STACK, SASS**\
 
+**Developed a clone of a famous streaming service with a little different User Interface Using MERN Stack ,
+SCSS.**\
+
+**Used JSON Web Token (JWT) for authorization. To authenticate a user, client must send a JSON Web Token
+in response of http request for backend API.**\
+#
 ## Screen Shots
 **Register Screen**
-<img src="https://lh3.googleusercontent.com/t7INxadAqAUxIs5i1tlXUJvEDb2LLx6ReLcyx3i2qrwOxoKhJxmZh51TijGE_w26Mw8LVvQwV3wEkjsQk3kKQt-ieiTnqeMdxNenRv4trfzL-tqfWmze8up-yAkHsR2WPwVCf0SxJl0d2zLt01Zp1i2tQK1qMYrLMHGyoiJT0PCQw1OIbsswZLZTSDZhs2cnvYg1YJbdeJlNReQIpijzy59pkJa3IyGHbEzIgTpnlTkq0026F5KFUyZYU_s7qE4HSFlEQLDgeCIOKuALN9GLJaYs3k4VX-tNX39VG8lce6qejR79DkmcTWpbBRC3LBgzVdyjyIdO0edGENrUgUNyC6IeOj5WMvZvAXrycSTaU-x71AEd4iXYWdorjeWJV3J5zAZyzVKjcMxHGWK35Mu6-kK9TNKBJA1hxoKuZ25BwqQxZMdup6aIlAR4mEhCyyQitEJdulvycFsE9aYldA3o8qLVmdMt8OUCfJcdpMd7Dqb8llmMLIC7V5qASyhh57FI8CfiuFAO5jowzc5kvK6Zy3V3MzKCcat9VSmvhekHIm9yxKEFcJ4stpFnLfwwBEkrUFKuHrjpmAYSKxNcqosURW76Tt9K_A8qsDOFhzLYliwXW-qPO-rOxRFBhGmVYshkQtlouz1C7nFlcwILT-UfhmGLyJSdPaJ_jkoG9J-bLB-cT01dOtsrrvbOpJZTeBj1qsCEwcV5zw07GO6smUJWN7Sq=w1901-h890-no?authuser=0" height="720" width="1280"/>
 
-** Login Screen **
-<img src="https://photos.app.goo.gl/N6dfJ75rF5Mk9xam9.png" alt="home" height="400" width="200"/>
+<img src="https://lh3.googleusercontent.com/nQ1ezia1FGsC-DB_TUQFxg_fpAb0zXF27SwLTjlmu1kc9cW7P6C_t3MsUk2LfEQ9mJPTb4lZp2Bpl_ba2DTIGLkVolX4ilPqzibiNaPBq2G9Y6lsOuKx_N03dK9euxahj29Jr7b5pv8jZB0KjfgiQEGNCFGFG5OFkv60V7M69VP13m--BwETj6X50PQD78DborRQ_BZwJLQULp265RNfEh30OKPfYmR7Z6EE54uQG0PGhxQfTDl_l5Wp_ggTzlNlIuYT7bcEYiAKoqiF1e_WI_kzPDAI0AXNHgk1S_ZZSBlVVcUu_phOAiGV27Z3EvsLvx9APYlyl7PAMjLcggDLeE1HVRujvxPdghApKPvEVAhCHE35udgmM4aVftDNuRhwAj0fpaLIzxHH3yhFSO2byHkJbQWV8BGz5r1Ec-_qlcIYLbl31_-g9pkSw4ejAMn6jPzoyFw6Qcnh2ak41Y-ZTC_QlWK0S4_UWaqKewHtbFVqLtpvWYPW2WI9cjagIgazbguV5ERgXofQO0kO2U6E19fIOPGARUli9pkQxj3PzDuG0T4MNjBuZmG31lSPD7-RaH9EXCqd3aAKOLJAVRe9uZbd8Jg0PyNJPeWa-nXI0yetMP4JM4vgZC-nNAqhOLIw6XsRTORKEQ7FgYwzu3bAIUk6aGy8WsN-exT_N13vmtTr0WMBbmDk8Bd4KZ1X3cJ9qL1KJ6S8fZW-pmZZt9xvw0h3=w1910-h893-no?authuser=0" height="720" width="1280"/>
 
-** Home Screen **
-<img src="https://drive.google.com/file/d/112wJs8CbHXM3t9l1hy9zFQ-DW6vztTCL/view?usp=sharing" alt="home" height="400" width="200"/>
+**Login Screen **
+<img src="https://lh3.googleusercontent.com/t7INxadAqAUxIs5i1tlXUJvEDb2LLx6ReLcyx3i2qrwOxoKhJxmZh51TijGE_w26Mw8LVvQwV3wEkjsQk3kKQt-ieiTnqeMdxNenRv4trfzL-tqfWmze8up-yAkHsR2WPwVCf0SxJl0d2zLt01Zp1i2tQK1qMYrLMHGyoiJT0PCQw1OIbsswZLZTSDZhs2cnvYg1YJbdeJlNReQIpijzy59pkJa3IyGHbEzIgTpnlTkq0026F5KFUyZYU_s7qE4HSFlEQLDgeCIOKuALN9GLJaYs3k4VX-tNX39VG8lce6qejR79DkmcTWpbBRC3LBgzVdyjyIdO0edGENrUgUNyC6IeOj5WMvZvAXrycSTaU-x71AEd4iXYWdorjeWJV3J5zAZyzVKjcMxHGWK35Mu6-kK9TNKBJA1hxoKuZ25BwqQxZMdup6aIlAR4mEhCyyQitEJdulvycFsE9aYldA3o8qLVmdMt8OUCfJcdpMd7Dqb8llmMLIC7V5qASyhh57FI8CfiuFAO5jowzc5kvK6Zy3V3MzKCcat9VSmvhekHIm9yxKEFcJ4stpFnLfwwBEkrUFKuHrjpmAYSKxNcqosURW76Tt9K_A8qsDOFhzLYliwXW-qPO-rOxRFBhGmVYshkQtlouz1C7nFlcwILT-UfhmGLyJSdPaJ_jkoG9J-bLB-cT01dOtsrrvbOpJZTeBj1qsCEwcV5zw07GO6smUJWN7Sq=w1901-h890-no?authuser=0" alt="home"  height="720" width="1280"/>
 
-** Watch Screen **
-<img src="https://drive.google.com/file/d/1-4peCuJhkuwHckOeXADSma7jM_ypG4zI/view?usp=sharing" alt="home" height="400" width="200"/>
+**Home Screen **
+<img src="https://lh3.googleusercontent.com/xVkob5ORnfuE4a870gWRxrldyO30L77ZGmijUQXEfLEmkEt4WaVzA5bgNwsOlMN2dbPKIC5c-hIHPc91fTInZ9Z4XfUTqKumFE7kXbHXbmuKoxEAX_HaM4rXT8mWWIsoORqqDbi3wkdxE17QDdk2dzw3BeEjQtHc71zmOFRNeirNijMFJ85DbIAAxnwDTLCdWKeJA3-mCMRZSF-rKoPbo-X0i3eXJwSDZgMPIro0taTajAFaeKp3cLuX_3vUQOvoT2PDm3XdP_O7-EVejWiEGOo4DPZMkC2GMzSwlPRJHFu1DI2ZCE70xg_P_0NX7pH5Zcmhqgr-X2VQjVVfqhzd1ge7kPJnN51KFlOF_6yPVtcpOkiGNt7SRKOSm2I_omIMUqgscw1S7C8YCkEbgxAjlHzpNpjytOY9e1Wddf3zcKIvq6Y4vGjIqoaiEBLOZ90gzM81qTMOakmixIgWN8A5gKosgJiwG6NYP5H7jENG5VzfvhVvrd_dBF3ZH0Jej9XzSxHFuuENYNf6ja4AUq1AQ7CPiqsDIkhNThMGB5dzHFLZ1Pe821PdAS11UK8QuIcxGCmYu9XNevfKHQYOzPRvWwpD0SZuljWUfRBY2VRJcdxyoLOKnOUIfV3LyUSXl2EaZb7Ox_gPjnJdVGAgbUusjNSGgYWdsGGP8QorOaL8F-hYcWVxa9ekKDsTMrqdyc1YTQNXdIxMDp-chYhxg6hZuEJz=w407-h189-no?authuser=0" alt="home" height="720" width="1280"/>
+
+**Watch Screen **
+<img src="https://lh3.googleusercontent.com/P8FUsgNucC0Bm2W157vnTE_gsmqh3fQulnRgXUDNMQqaI1q4T0Ly6RZRAEWSvzygCVffg6KQi_VF1L1E4HMHGPSkoAhL7SMTv0uM7DUAk8wKHyFIodFe56I-0O6oQ_Qylvm3Ke5yPupuPtG7_14mrOMGHN6o2XD-lQdGefG-gC4KVmGwq1AZDg865X2wYp5WjAOv45JQ1DonsigTeD0_6pdJCi8RXvM3KFu2jYBfJhNbh4dkY71miajpNS83y_SDyBgLRr3hX6q0Vj-9upueUhHBnAxsvbcrGUpgKCxQ-tRJABAwIlxRq_mbCZz9XvyBqKpFeDMF6j8YBTnfjyCIKku6mNFiusV4sZfJ7Ei58G-1pl7I61AG0PXMni-5BBEh3bFs-gMMTqFp5jYUQhmSxp8gfkjpfXbBnCtrMg3rCIB7LR6rO6etUXCo1VlF6ezHs_ydqwPPm4l0ySARK1FdeBFKtL4A78Wm8hN-ZPWFDRyc6fZFHRI-n8f3cTlF-yaGsHWQTxuLnbnRsexUHInwhN9pVMGGKV74iBJOthCf-MfbhUakjltHWIebVmpmQqHVd3YeCPK8yh33W4xNSSiglWdVSenW6GJaRFYCMgz0SdJcmBmNQybNX6NcQNOhgF-bZ4LaDVa-qOtYiUNX_z_xdsvtz2qtrzu1vxyHWZc5kdcbx8wQoyNkJfm2qWSREdSPY3S2hxCPw1UX6h1wY1kWbdGS=w1903-h893-no?authuser=0" alt="home" height="720" width="1280"/>
